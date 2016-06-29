@@ -1,7 +1,8 @@
+
 ---
 title: "Assignment"
-output: md_document:
-        variant: markdown_github
+output: md_document
+
 ---
 
 ```{r global_options, include=TRUE}
