@@ -1,4 +1,3 @@
-## Assignment
 ---
 title: "Assignment"
 output: md_document:
