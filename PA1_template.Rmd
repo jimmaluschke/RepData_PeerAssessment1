@@ -1,11 +1,9 @@
 ---
 title: "Assignment"
-output: md_document
+output: html_document
 ---
 
-
-output: md_document:
-        variant: markdown_github
+## General settings
 
 ```{r global_options, include=TRUE}
 knitr::opts_chunk$set(fig.width=12, fig.height=8, fig.path='figure/',

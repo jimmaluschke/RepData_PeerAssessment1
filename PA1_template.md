@@ -1,4 +1,8 @@
-output: md\_document: variant: markdown\_github
+Assignment
+==========
+
+General settings
+----------------
 
     knitr::opts_chunk$set(fig.width=12, fig.height=8, fig.path='figure/',
                           echo=TRUE, warning=FALSE, message=FALSE)
