@@ -1,6 +1,6 @@
 ---
 title: "Assignment"
-output: html_document
+output: md_document
 ---
 
 
@@ -61,6 +61,7 @@ max_step_int
 
 ```` {R}
 count_na <- sum(is.na(Data))
+count_na
 ````
 
 2. Strategy for filling in all of the missing values in the dataset and creating new dataset

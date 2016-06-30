@@ -1,7 +1,5 @@
-Assignment
------------------------------------------------------
+output: md\_document: variant: markdown\_github
 
-   
     knitr::opts_chunk$set(fig.width=12, fig.height=8, fig.path='figure/',
                           echo=TRUE, warning=FALSE, message=FALSE)
 
@@ -68,6 +66,9 @@ Imputing missing values
 <!-- -->
 
     count_na <- sum(is.na(Data))
+    count_na
+
+    ## [1] 2304
 
 1.  Strategy for filling in all of the missing values in the dataset and
     creating new dataset
