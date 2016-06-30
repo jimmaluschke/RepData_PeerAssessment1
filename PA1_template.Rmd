@@ -1,7 +1,4 @@
----
-title: "Assignment"
-output: html_document
----
+# Assignment
 
 ## General settings
 
