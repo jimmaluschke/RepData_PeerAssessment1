@@ -52,6 +52,9 @@ What is the average daily activity pattern?
 <!-- -->
 
     max_step_int <- meansteps[meansteps$steps==max(meansteps$steps),1]
+    max_step_int
+
+    ## [1] 835
 
 Imputing missing values
 -----------------------
@@ -95,8 +98,8 @@ new dataset "Data2"
 
 The average of steps taken slightly increases from **10766.19** (with
 missing values excluded) to **10780.49** (missing values imputed).The
-median of steps taken goes down from **10765** (missing values excluded)
-to **10600** (missing values imputed).
+median of steps taken goes down from **10765.00** (missing values
+excluded) to **10600.00** (missing values imputed).
 
 Are there differences in activity patterns between weekdays and weekends?
 -------------------------------------------------------------------------
